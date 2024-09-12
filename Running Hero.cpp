@@ -183,14 +183,14 @@ void render() {
     // Draw score
     string scr = "Score: " + to_string(score);
     sf::Text scoreText(scr, font, 20);
-    scoreText.setFillColor(sf::Color::Black);
+    scoreText.setFillColor(sf::Color::White);
     scoreText.setPosition(10, 10);
     window.draw(scoreText);
 
     // Draw high score
     string hi = "High Score: " + to_string(highScore);
     sf::Text highScoreText(hi, font, 20);
-    highScoreText.setFillColor(sf::Color::Black);
+    highScoreText.setFillColor(sf::Color::White);
     highScoreText.setPosition(10, 40);
     window.draw(highScoreText);
 
