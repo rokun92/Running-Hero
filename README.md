@@ -1,2 +1,2 @@
 # Running-Hero
-This is a replica of chrome offline game and my first project on game
+This is a duo project is a simple game of chrome offline replica game for our CS150 project course
